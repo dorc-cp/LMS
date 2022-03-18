@@ -8,9 +8,84 @@
 </head>
 <body bgcolor="pink">
 	<div class="bigimage">
-	<img src="C:/wamp64/www/images/edu.png" class="img" alt="logo">
+	<img src="C:\wamp64\www\beldine\LMS\images\edu.png" class="img" alt="logo">
 	<div class="content">
 		<header>
+	<div class="signup">
+		<head>
+<title>sign in</title>
+<style>
+	.body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+}
+.box{
+	width: 300px;
+	background: none;
+	display: block;
+	padding: 30px;
+	position: absolute;
+	top: 8%;
+	left: 70%;
+	transition: translate(-50%,-50%);
+	background: white;
+	text-align: center;
+}
+.box{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700px;
+}
+h1{
+	font-weight: 2%;
+	font-size: 4px;
+	font-color: black;
+}
+.box input[type="text"],.box input[type="password"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid pink;
+	padding: 14px 10px;
+	width: 220px;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 270px;
+border-color: yellow;
+}
+.box input[type="submit"]{
+	border: 0;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid pink;
+	padding: 14px 35px;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25px;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background: green;
+}
+</style>
+</head>
+<body>
+    <form class="box"action="login.html"method="post">
+    	<img src="C:\wamp64\www\beldine\LMS\images\LOGIN.png">
+         <h1>sign in page</h1>
+         <input type="text"name=""placeholder="enter username"id="username">
+         <input type="password"name=""placeholder="enter password"id="password">
+         <input type="submit"name=""value="login"onclick="validate()">
+    </form>
+	</div>
 <h2>WELCOME BACK.</h2>
 	</header>
 <p><i>We ensure better Education for a better world</i></p></div>
