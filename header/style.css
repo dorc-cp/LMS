@@ -1,0 +1,32 @@
+body{
+	font-family: verdana;
+	background-image: url("C:\wamp64\www\images\ground.jpg") no-repeat center center fixed;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	color: white;
+	line-height: 50px;
+	text-align: left;
+	margin: 200px;
+
+}
+.footer{
+	bottom: -85px;
+	position: absolute;
+	width: 68%;
+	color:white;
+	text-align: right;
+}
+.header{
+	position: absolute;
+	text-align: center;
+}
+footer{
+	font-size: 20px;
+}
+h2{
+	font-size: 60px;
+}
