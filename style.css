@@ -1,0 +1,87 @@
+*{
+	text-decoration: none;
+	font-family: poppins;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	}
+	.block{
+		border-radius: 5px;
+		padding: -9px;
+	margin: 10px;
+	background-color: lightgrey;
+	}
+
+.block h4{
+	padding: 10px;
+	margin: 10px;
+	background-color: lightgrey;
+	align-content: right;
+	color: green;
+	
+}
+.block h2{
+	text-align: right;
+	color: green;
+
+}
+.header{
+	color: green;
+}
+.dayname{
+	text-align: right;
+	color: lightgreen;
+}
+.time{
+	text-align: right;
+	color: lightgreen;
+}
+
+span{
+	align-text: right;
+	font-size: 30px;
+}
+.button {
+         height: 80%;
+         width: 160px;
+         position: absolute;
+         top: 45%;
+         left: -0.5%;
+         padding: 16px;
+          }
+         button a {
+         padding: 6px 6px 6px 6px 6px, 6px, 6px, 6px;
+         font-size: 20px;
+         color: black;
+         display: block;
+         }
+         button{
+	     border: 3px;
+	     background: green;
+	     display: black;
+	     margin: 0px;
+	     text-align: center;
+	     border: 0px solid;
+	     padding: 6px 10px;
+	     width: 180px;
+	     color: green;
+	     transition: 0.25px;
+          }
+         button{
+	     margin: 0px;
+	     text-align: center;
+	     border: none;
+	     padding:6px 10px;
+	     color: black;
+	     border-radius: 10px;
+	     transition: 0.25px;
+	     cursor: pointer;
+         }
+ .container button{
+ 	border: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(100deg, green, grey, grey, grey, grey, grey);
+	display: block;
+}
