@@ -3,18 +3,25 @@
 	font-family: poppins;
 	box-sizing: border-box;
 }
-body{
+
+.header_img{
+	width: 50%;
+}
+.header_details{
+	width: 50%;
+}
+/*body{
 	margin: 0;
 	padding: 0;
-	}
-	.block{
+	}*/
+.intro_section{
 		border-radius: 5px;
 		padding: -9px;
 	margin: 10px;
 	background-color: lightgrey;
 	}
 
-.block h4{
+.intro_section h4{
 	padding: 10px;
 	margin: 10px;
 	background-color: lightgrey;
@@ -22,7 +29,7 @@ body{
 	color: green;
 	
 }
-.block h2{
+.intro_section h2{
 	text-align: right;
 	color: green;
 
@@ -30,24 +37,16 @@ body{
 .header{
 	color: green;
 }
-.dayname{
-	text-align: right;
-	color: lightgreen;
-}
-.time{
-	text-align: right;
-	color: lightgreen;
-}
 
-span{
+/*span{
 	align-text: right;
 	font-size: 30px;
-}
+}*/
 .button {
          height: 80%;
-         width: 160px;
+         width: 100%;
          position: absolute;
-         top: 45%;
+         margin-top: 10px;
          left: -0.5%;
          padding: 16px;
           }
@@ -85,3 +84,59 @@ span{
 	background: linear-gradient(100deg, green, grey, grey, grey, grey, grey);
 	display: block;
 }
+.worksheet{
+	margin: 0;
+	padding: 0;
+	border-radius: 12px;
+	background-color: lightgrey;
+	height: 420px;
+	width: 80%;
+	float:right;
+	margin-top: 10px;
+	}
+	
+	 .container{
+	    width: 589px;
+		border-radius: 5px;
+		padding: -2px;
+	    margin: -1px;
+	    
+	    text-align: left;
+	    height: 50px;
+	    text-decoration-color: white;
+	    color: white;	
+	}
+	.box{
+		/*add flexbox style*/
+	display: flex;
+	justify-content: space-evenly;
+	}
+	.table{
+		width: 900px;
+		border-collapse: collapse;
+		border-radius: 4px;
+	}
+	.table td,.table tr{
+		padding: 12px 15px;
+		border: 1px solid white;
+		text-align: left;
+		background-color: white;
+		border-radius: 4px;
+	}
+	hr{
+		height: 12px;
+		background: white;
+	}
+	td:nth-child(5n+4){
+		background-color: grey;
+	}
+	h1{
+		background-color: darkolivegreen;
+		border-radius: 4px;
+	}
+	h2{
+		background-color: darkgray;
+		border-radius: 4px;
+		height: 50px;
+		text-align: right;
+	}

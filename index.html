@@ -1,66 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	   <div class="button">
-         <button><a href="#home"><i class="fa fa-fw fa-home"></i> Home</a></button><br><br>
-         <button><a href="#worksheet"><i class="fa fa-fw fa-envelope"></i> worksheet</a></button><br><br>
-     <div class="container">
-         <button><a href="#to do"><i class="fa fa-fw fa-none"></i> to do</a></button><br>
-         <button><a href="#Browse"><i class="fa fa-fw fa-none"></i> Browse</a></button><br>
-         <button><a href="#completed"><i class="fa fa-fw fa-none"></i> completed</a></button><br>
-     </div>
-         <button><a href="#progress"><i class="fa fa-fw fa-user"></i> progress</a></button><br><br>
-     <div class="container">
-         <button><a href="#scores"><i class="fa fa-fw fa-none"></i>scores</a></button><br>
-         <button><a href="#reward"><i class="fa fa-fw fa-none"></i> reward</a></button><br>
-         <button><a href="#badges"><i class="fa fa-fw fa-none"></i> badges</a></button><br>
-         <button><a href="#timelines"><i class="fa fa-fw fa-none"></i> timelines</a></button>
-     </div>
-     </div>
-</body>
-</html>
-
-
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
 	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<title>My Dashboard:</title>
-	<div class="digital-clock">
-	<div class="dayname">
-		<span id="dayname"> my dashboard 12</span>
-		<span id="comma">:</span>
-		<span id="month">5</span>
-		<span id="comma">:</span>
-		<span id="year">1999</span>
-	</div>
-</div>
-	<div class="time">
-		<span id="hours"> logout, 12</span>
-		<span id="dots">:</span>
-		<span id="minutes">50</span>
-		<span id="dots">:</span>
-		<span id="seconds">20</span>
-		<span id="period">AM/PM</span>
-	</div>
-	<div class="header">	
-		<img src="images/image.jpg" width="200" height="100">
-				<span><b>EDplace</span></b>
-	</div>
-
 </head>
 <body> 
+	<div class="header">
+		
+		<div class="header_img", style="width: 50%;float: left;">
+			<img src="images/image.jpg" width="200" height="100">
+				<p id="header_image_name"><b>EDplace</p></b>
+			</img>
+		</div>		
+
+		<div class="header_details", style="width: 50%;float: right;"> 
+			<p > My DashBoard</p>
+			<p>Logout</p>
+			<p id="time_details"> 20th February 2022 <br> 11:30 am</p>
+					
+		</div>
+	</div>
+	<div class="body_section">
+		<div class="intro_section">
+			<h4>Hi bobby</h4>
+			<h2>197 points</h2>
+		</div>
+	</div>		
+	<div class="button">
+         <button><a href="#home"><i class="fa fa-fw fa-home"></i> Home</a></button><br><br>
+         <button><a href="#worksheet"><i class="fa fa-fw fa-envelope"></i> worksheet</a></button><br><br>  	
+         <button><a href="#to do"><i class="fa fa-fw fa-none"></i> to do</a></button><br><br>
+         <button><a href="#Browse"><i class="fa fa-fw fa-none"></i> Browse</a></button><br><br>
+         <button><a href="#completed"><i class="fa fa-fw fa-none"></i> completed</a></button><br><br>
+    	
+         <button><a href="#progress"><i class="fa fa-fw fa-user"></i> progress</a></button><br><br>
+  
+         <button><a href="#scores"><i class="fa fa-fw fa-none"></i>scores</a></button><br><br>
+         <button><a href="#reward"><i class="fa fa-fw fa-none"></i> reward</a></button><br><br>
+         <button><a href="#badges"><i class="fa fa-fw fa-none"></i> badges</a></button><br><br>
+         <button><a href="#timelines"><i class="fa fa-fw fa-none"></i> timelines</a></button>
+    </div>
+
+	<div class="worksheet">
 	<div class="block">
-		<h4>Hi bobby</h4>
-		<h2>197 points</h2>
+		<h2>worksheet complete .good effort!</h2>
+		<hr>
+	<div class="container">
+		<h1>worksheet to do</h1>
+		</div>
+	</div>
+	<div class="box">
+		<p>worksheet</p>
+		<p> subject</p>
+		<p>points</p>
+	</div>
+	<div class="table">
+		<table>
+			<tr>
+				<td>1.</td>
+				<td>Use colons to signal a list</td>
+				<td style="color: red">English</td>
+				<td>10</td>
+				<td style="background: orange">start</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Write a number of quaters in different ways</td>
+				<td style="color: red;">Math</td>
+				<td>10</td>
+				<td style="background: red">start</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Skeleton and circulation 2</td>
+				<b><td style="color: blue;"> science</td></b>
+				<td >10</td>
+				<td style="background: blue">start</td>
+			</tr>
+		</table>
+		<p><b>NEW!</b></p>
+	</div>
 	</div>
 
-	
 </body>
 </html>
