@@ -78,12 +78,6 @@
 	     transition: 0.25px;
 	     cursor: pointer;
          }
- .container button{
- 	border: 0px;
-	background: rgba(0, 0, 0, 0.5);
-	background: linear-gradient(100deg, green, grey, grey, grey, grey, grey);
-	display: block;
-}
 .worksheet{
 	margin: 0;
 	padding: 0;
@@ -96,7 +90,7 @@
 	}
 	
 	 .container{
-	    width: 589px;
+	    width: 1065px;
 		border-radius: 5px;
 		padding: -2px;
 	    margin: -1px;
@@ -110,6 +104,10 @@
 		/*add flexbox style*/
 	display: flex;
 	justify-content: space-evenly;
+	color: black;
+    margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
 	}
 	.table{
 		width: 900px;
@@ -138,5 +136,26 @@
 		background-color: darkgray;
 		border-radius: 4px;
 		height: 50px;
-		text-align: right;
+		text-align: left;
+		color: white;
 	}
+	p{
+			background-color: darkolivegreen;
+			color: black;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 5px;
+		}
+	.progress{
+	margin-top: 55px;
+	padding: 1px;
+	justify-content: space-evenly;
+	float: right;
+           }
+           pre{
+           	color: black;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 5px;
+           }
+    
