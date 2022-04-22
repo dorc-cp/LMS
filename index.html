@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
 	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#arrow").click(function(){
+    $("#header").slideUp("slow");
+  });
+});
+</script>
 	<title>My Dashboard:</title>
 </head>
-<body> 
+<body>
+<div id="flip">Click to slide the panel down or up</div> 
 	<div class="header">
 		
 		<div class="header_img", style="width: 50%;float: left;">
@@ -83,23 +88,27 @@
 			</tr>
 		</table>
 		<b>NEW!</b>
+		<button style="color:white; background: red; float: right; height: 40px;">see all worksheet</button>
 		<div class="progress">
 		    <p><b>Next reward</b></p>
-		    <img src="C:\Users\CISPS\Desktop\login\gg.jpg" width="300" height="200">
-		    <div><button>see all rewards</div>
+		    <img src="C:\Users\CISPS\Desktop\login\gg.jpg" width="300" height="400">
+		    <div><button style="background: red; color: white;">see all rewards</button></div>
 	</div>
 		    <div class="progress">
 			<p><b>Progress</b></p>
-			<img src="C:\Users\CISPS\Desktop\login\ff.jpg" width="300" height="200">
-			<div><button>see all progress</button></div>
+			<img src="C:\Users\CISPS\Desktop\login\ff.jpg" width="300" height="400">
+			<div><button style="background: red; color: white;">see all progress</button></div>
 		</div>
 			<div class="progress">
 				<p><b>Badges</b></p>
-				<img src="C:\Users\CISPS\Desktop\login\images.png" width="275" height="200">
-				<div><button>see all badges</button></div>
+				<img src="C:\Users\CISPS\Desktop\login\images.png" width="275" height="400">
+				<div><button style="background: red; color: white;">see all badges</button></div>
 			</div>
+		</div>
+		
+	<div id="arrow">
+		<button><i class="fa fa-fw fa-arrow"></i> scrollup</a></button>
 	</div>
-	</div>
-
+</div>
 </body>
 </html>
